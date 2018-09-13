@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_d0fdbdf77e0f4c9cbce4291c3a6d13d4 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_d0fdbdf77e0f4c9cbce4291c3a6d13d4" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_d0fdbdf77e0f4c9cbce4291c3a6d13d4 = L.map(
+        'map_d0fdbdf77e0f4c9cbce4291c3a6d13d4', {
+        center: [-5.812757, -35.255127],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_07181aefa42541758717f9f66914059a = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+    
+        var marker_47de32506f624bcdb91eb91c2caf7b4a = L.marker(
+            [-5.8032096, -35.2002054],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_d340ed82e0384ae5b4d7c9c47106e73a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7ce35a75bba54589a464bc692823c446 = $('<div id="html_7ce35a75bba54589a464bc692823c446" style="width: 100.0%; height: 100.0%;">Valor estimado: R$344K</div>')[0];
+                popup_d340ed82e0384ae5b4d7c9c47106e73a.setContent(html_7ce35a75bba54589a464bc692823c446);
+            
+
+            marker_47de32506f624bcdb91eb91c2caf7b4a.bindPopup(popup_d340ed82e0384ae5b4d7c9c47106e73a)
+            ;
+
+            
+        
+    
+        marker_47de32506f624bcdb91eb91c2caf7b4a.bindTooltip(
+            '<div>'
+            + 'Tirol' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_cca696e850784dffbb133ab60d111877 = L.marker(
+            [-5.7845495, -35.1984438],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_9e46c56ee8074a608412128c7e1315cb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_493d9789e7b1407cbfc4cdbcc2c9d633 = $('<div id="html_493d9789e7b1407cbfc4cdbcc2c9d633" style="width: 100.0%; height: 100.0%;">Valor estimado: R$378K</div>')[0];
+                popup_9e46c56ee8074a608412128c7e1315cb.setContent(html_493d9789e7b1407cbfc4cdbcc2c9d633);
+            
+
+            marker_cca696e850784dffbb133ab60d111877.bindPopup(popup_9e46c56ee8074a608412128c7e1315cb)
+            ;
+
+            
+        
+    
+        marker_cca696e850784dffbb133ab60d111877.bindTooltip(
+            '<div>'
+            + 'Petrópolis' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_b5dfe7ff8f3647eb9f2fd0e71919f748 = L.marker(
+            [-5.8576398, -35.2014489],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_0529590a14b94e008262af6cb9e78c23 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b006bb84dccf434387e7dfc3120606d3 = $('<div id="html_b006bb84dccf434387e7dfc3120606d3" style="width: 100.0%; height: 100.0%;">Valor estimado: R$283K</div>')[0];
+                popup_0529590a14b94e008262af6cb9e78c23.setContent(html_b006bb84dccf434387e7dfc3120606d3);
+            
+
+            marker_b5dfe7ff8f3647eb9f2fd0e71919f748.bindPopup(popup_0529590a14b94e008262af6cb9e78c23)
+            ;
+
+            
+        
+    
+        marker_b5dfe7ff8f3647eb9f2fd0e71919f748.bindTooltip(
+            '<div>'
+            + 'Capim Macio' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_d19493e5054d4a8c97cb0ef826ee0873 = L.marker(
+            [-5.8821365, -35.1722172],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_ec48a6faa8864e60b426c1cdf8795866 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_66321da19ea64585b1aaa1fe480794fc = $('<div id="html_66321da19ea64585b1aaa1fe480794fc" style="width: 100.0%; height: 100.0%;">Valor estimado: R$443K</div>')[0];
+                popup_ec48a6faa8864e60b426c1cdf8795866.setContent(html_66321da19ea64585b1aaa1fe480794fc);
+            
+
+            marker_d19493e5054d4a8c97cb0ef826ee0873.bindPopup(popup_ec48a6faa8864e60b426c1cdf8795866)
+            ;
+
+            
+        
+    
+        marker_d19493e5054d4a8c97cb0ef826ee0873.bindTooltip(
+            '<div>'
+            + 'Ponta Negra' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_fa978c10fd294c9892ddf2d16b4bc9d8 = L.marker(
+            [-5.8437235, -35.2214483],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_a93b4190a9824b20bf0d60de0427314c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_937d9d15bf3048c8a09225320c632446 = $('<div id="html_937d9d15bf3048c8a09225320c632446" style="width: 100.0%; height: 100.0%;">Valor estimado: R$238K</div>')[0];
+                popup_a93b4190a9824b20bf0d60de0427314c.setContent(html_937d9d15bf3048c8a09225320c632446);
+            
+
+            marker_fa978c10fd294c9892ddf2d16b4bc9d8.bindPopup(popup_a93b4190a9824b20bf0d60de0427314c)
+            ;
+
+            
+        
+    
+        marker_fa978c10fd294c9892ddf2d16b4bc9d8.bindTooltip(
+            '<div>'
+            + 'Candelária' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_6e3b4cd372a54f78adc53e458bf77275 = L.marker(
+            [-5.8666079, -35.2088062],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_de633cc88c7a40668a963a95a5da728a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_44e8a11c836a435ebc4949c3bf0c12da = $('<div id="html_44e8a11c836a435ebc4949c3bf0c12da" style="width: 100.0%; height: 100.0%;">Valor estimado: R$229K</div>')[0];
+                popup_de633cc88c7a40668a963a95a5da728a.setContent(html_44e8a11c836a435ebc4949c3bf0c12da);
+            
+
+            marker_6e3b4cd372a54f78adc53e458bf77275.bindPopup(popup_de633cc88c7a40668a963a95a5da728a)
+            ;
+
+            
+        
+    
+        marker_6e3b4cd372a54f78adc53e458bf77275.bindTooltip(
+            '<div>'
+            + 'Neópolis' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_fe8b244360a64abeba92df044d1681dc = L.marker(
+            [-5.7988797, -35.2188577],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_f6e809504a5d4e8fb47a390b4e439b07 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c1640d86504a4cbbb571ecd5de11b955 = $('<div id="html_c1640d86504a4cbbb571ecd5de11b955" style="width: 100.0%; height: 100.0%;">Valor estimado: R$217K</div>')[0];
+                popup_f6e809504a5d4e8fb47a390b4e439b07.setContent(html_c1640d86504a4cbbb571ecd5de11b955);
+            
+
+            marker_fe8b244360a64abeba92df044d1681dc.bindPopup(popup_f6e809504a5d4e8fb47a390b4e439b07)
+            ;
+
+            
+        
+    
+        marker_fe8b244360a64abeba92df044d1681dc.bindTooltip(
+            '<div>'
+            + 'Alecrim' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_7e21fb3f5db140b59d8af5ee378ee202 = L.marker(
+            [-5.8257002, -35.2547225],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_56ce4f65137745ee8a58337d353b7ef8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d10f54832eb94a04b776ee792fb731c4 = $('<div id="html_d10f54832eb94a04b776ee792fb731c4" style="width: 100.0%; height: 100.0%;">Valor estimado: R$293K</div>')[0];
+                popup_56ce4f65137745ee8a58337d353b7ef8.setContent(html_d10f54832eb94a04b776ee792fb731c4);
+            
+
+            marker_7e21fb3f5db140b59d8af5ee378ee202.bindPopup(popup_56ce4f65137745ee8a58337d353b7ef8)
+            ;
+
+            
+        
+    
+        marker_7e21fb3f5db140b59d8af5ee378ee202.bindTooltip(
+            '<div>'
+            + 'Felipe Camarão' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_fad655a33dc8444fb6326f004e0afb4d = L.marker(
+            [-5.8366106, -35.271913],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_c92eff8cf22540e2a9702120773018c4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1ffcce0b8b0642e781fb081c36ba3373 = $('<div id="html_1ffcce0b8b0642e781fb081c36ba3373" style="width: 100.0%; height: 100.0%;">Valor estimado: R$275K</div>')[0];
+                popup_c92eff8cf22540e2a9702120773018c4.setContent(html_1ffcce0b8b0642e781fb081c36ba3373);
+            
+
+            marker_fad655a33dc8444fb6326f004e0afb4d.bindPopup(popup_c92eff8cf22540e2a9702120773018c4)
+            ;
+
+            
+        
+    
+        marker_fad655a33dc8444fb6326f004e0afb4d.bindTooltip(
+            '<div>'
+            + 'Guarapes' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_480cb5c5950f4a29ad5ab426f955cc53 = L.marker(
+            [-5.7690001, -35.2618893],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_5914b5290fe34d52ab916ff1eea61883 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_63f9462b024d486488461d945edd7b01 = $('<div id="html_63f9462b024d486488461d945edd7b01" style="width: 100.0%; height: 100.0%;">Valor estimado: R$288K</div>')[0];
+                popup_5914b5290fe34d52ab916ff1eea61883.setContent(html_63f9462b024d486488461d945edd7b01);
+            
+
+            marker_480cb5c5950f4a29ad5ab426f955cc53.bindPopup(popup_5914b5290fe34d52ab916ff1eea61883)
+            ;
+
+            
+        
+    
+        marker_480cb5c5950f4a29ad5ab426f955cc53.bindTooltip(
+            '<div>'
+            + 'Igapó' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_de1aa85cbf714a408a6a6156effc89dc = L.marker(
+            [-5.8226937, -35.2126403],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_4b6659779df945d0851da397a5e1a284 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ca153bb26d6449e69f76257e05663a03 = $('<div id="html_ca153bb26d6449e69f76257e05663a03" style="width: 100.0%; height: 100.0%;">Valor estimado: R$214K</div>')[0];
+                popup_4b6659779df945d0851da397a5e1a284.setContent(html_ca153bb26d6449e69f76257e05663a03);
+            
+
+            marker_de1aa85cbf714a408a6a6156effc89dc.bindPopup(popup_4b6659779df945d0851da397a5e1a284)
+            ;
+
+            
+        
+    
+        marker_de1aa85cbf714a408a6a6156effc89dc.bindTooltip(
+            '<div>'
+            + 'Lagoa Nova' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_6570a80639604b2b8afc6e897c2f1da7 = L.marker(
+            [-5.7972181, -35.2316702],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_e874a3ed0254435d8b5f9b522c939779 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7ee677357dba41998c2485bd4a54fc39 = $('<div id="html_7ee677357dba41998c2485bd4a54fc39" style="width: 100.0%; height: 100.0%;">Valor estimado: R$276K</div>')[0];
+                popup_e874a3ed0254435d8b5f9b522c939779.setContent(html_7ee677357dba41998c2485bd4a54fc39);
+            
+
+            marker_6570a80639604b2b8afc6e897c2f1da7.bindPopup(popup_e874a3ed0254435d8b5f9b522c939779)
+            ;
+
+            
+        
+    
+        marker_6570a80639604b2b8afc6e897c2f1da7.bindTooltip(
+            '<div>'
+            + 'Quintas' + '</div>',
+            {"sticky": true}
+        );
+        
+    
+        var marker_34a0d0254e8c47f48764edb14e3fbd99 = L.marker(
+            [-5.7767142, -35.2062156],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d0fdbdf77e0f4c9cbce4291c3a6d13d4);
+        
+    
+            var popup_dd344fff5d33467c9f3a6742f3152d7a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_44b9806dd23348d8a5a9a4201ced5705 = $('<div id="html_44b9806dd23348d8a5a9a4201ced5705" style="width: 100.0%; height: 100.0%;">Valor estimado: R$228K</div>')[0];
+                popup_dd344fff5d33467c9f3a6742f3152d7a.setContent(html_44b9806dd23348d8a5a9a4201ced5705);
+            
+
+            marker_34a0d0254e8c47f48764edb14e3fbd99.bindPopup(popup_dd344fff5d33467c9f3a6742f3152d7a)
+            ;
+
+            
+        
+    
+        marker_34a0d0254e8c47f48764edb14e3fbd99.bindTooltip(
+            '<div>'
+            + 'Ribeira' + '</div>',
+            {"sticky": true}
+        );
+        
+</script>
