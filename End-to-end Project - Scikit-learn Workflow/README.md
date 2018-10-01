@@ -14,4 +14,5 @@ The following topics are covered in this Notebook:
     - Models
     - Cross-validation
     - GridSearchCV / RandomSearchCV
+    - Model Evalution
   
