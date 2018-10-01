@@ -1,6 +1,5 @@
 # Machine Learning
 
-An End-to-End Machine Learning Project to predict housing prices in Natal-RN, Brazil.
+An Exercise Notebook to practice Machine Learning techniques to predict housing prices using AmesHousing.txt DataBase.
 
-- The dataset used was acquired using **Web Scraping** methods in public data.
-- The **Notebook** explaning the step by step is in the folder `end-to-end`. [Direct Link](https://nbviewer.jupyter.org/github/Fernandohf/Machine_Learning/blob/master/end-to-end/End%20to%20End%20-%20Linear%20Regression%20Problem.ipynb) to the instructions Notebook.
+** [Direct Link]https://nbviewer.jupyter.org/github/Fernandohf/Machine_Learning/blob/master/Linear%20Regression/Lesson_5_exercise-Complete.ipynb) to the instructions Notebook. **
