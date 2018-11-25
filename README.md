@@ -17,3 +17,5 @@ Collection os small machine learning projects from the course [EEC1509_MachineLe
 2.[K-Nearest Neighbor](...)
 
 3.[Logistic Regression](...)
+
+4.[Clustering](...)
